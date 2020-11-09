@@ -126,8 +126,10 @@ const useStyles = makeStyles((theme) => ({
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center'
+  },
+  groupExperience: {
+    marginLeft: 10
   }
-
 }));
 
 
@@ -223,45 +225,47 @@ function Cv() {
             </div>
           </div>
         </div>
-        <div className={classes.roott}>
-          <Typography variant="h6" className={classes.profile}>
-            MY EXPERIENCE
+        <div className={classes.groupExperience}>
+          <div className={classes.roott}>
+            <Typography variant="h6" className={classes.profile}>
+              MY EXPERIENCE
             </Typography>
-          <br></br>
-          <Typography variant="h6">
-            Five Finger
+            <br></br>
+            <Typography variant="h6">
+              Five Finger
             </Typography>
-          <LinearProgressWithLabel value={99} />
-        </div>
-        <div className={classes.roott}>
-          <Typography variant="h6">
-            Sarcasm
+            <LinearProgressWithLabel value={99} />
+          </div>
+          <div className={classes.roott}>
+            <Typography variant="h6">
+              Sarcasm
             </Typography>
-          <LinearProgressWithLabel value={66} />
-        </div>
-        <div className={classes.roott}>
-          <Typography variant="h6">
-            Religious
+            <LinearProgressWithLabel value={66} />
+          </div>
+          <div className={classes.roott}>
+            <Typography variant="h6">
+              Religious
             </Typography>
-          <LinearProgressWithLabel value={2} />
-        </div>
-        <div className={classes.roott}>
-          <Typography variant="h6">
-            Pemuda Tersesat
+            <LinearProgressWithLabel value={2} />
+          </div>
+          <div className={classes.roott}>
+            <Typography variant="h6">
+              Pemuda Tersesat
             </Typography>
-          <LinearProgressWithLabel value={86} />
-        </div>
-        <div className={classes.roott}>
-          <Typography variant="h6">
-            Racism
+            <LinearProgressWithLabel value={86} />
+          </div>
+          <div className={classes.roott}>
+            <Typography variant="h6">
+              Racism
             </Typography>
-          <LinearProgressWithLabel value={96} />
-        </div>
-        <div className={classes.roott}>
-          <Typography variant="h6">
-            Gemah
+            <LinearProgressWithLabel value={96} />
+          </div>
+          <div className={classes.roott}>
+            <Typography variant="h6">
+              Gemah
             </Typography>
-          <LinearProgressWithLabel value={100} />
+            <LinearProgressWithLabel value={100} />
+          </div>
         </div>
       </div>
     </div>
