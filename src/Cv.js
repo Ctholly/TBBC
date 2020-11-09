@@ -158,7 +158,7 @@ function Cv() {
           <div className={classes.top}>
             <Avatar alt="logo" src={Lucia} className={classes.large} />
             <Typography variant="h4" component="h2" className={classes.name} >
-              Mr.Jrin Tea
+              Mr.Jrin Tea Test
               <br></br>
             Also Known As Diktaktor From EF V AI
           </Typography>
