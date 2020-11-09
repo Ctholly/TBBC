@@ -1,0 +1,19 @@
+{
+  "projects": {
+    "default": "sangpemudatersesat"
+  },
+  "targets": {
+    "sangpemudatersesat": {
+      "hosting": {
+        "sangpemudatersesat": []
+      }
+    },
+    "pencok-5648b": {
+      "hosting": {
+        "sangpemudatersesat": [
+          "sangpemudatersesat"
+        ]
+      }
+    }
+  }
+}
