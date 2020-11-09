@@ -9,8 +9,7 @@ import AccordionSummary from '@material-ui/core/AccordionSummary';
 import AccordionDetails from '@material-ui/core/AccordionDetails';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import EmailIcon from '@material-ui/icons/Email';
-import PhoneIcon from '@material-ui/icons/Phone';
-import Link from '@material-ui/core/Link';
+import PhoneIcon from '@material-ui/icons/Phone'
 import LinearProgress from '@material-ui/core/LinearProgress';
 import Box from '@material-ui/core/Box';
 import habibi from './habibi.png';
@@ -52,18 +51,18 @@ const useStyles = makeStyles((theme) => ({
   },
   kiri: {
     backgroundColor: '#000',
-    padding: 10,
     color: 'rgb(247, 186, 221)',
-    flex: '30%',
+    flex: '70%',
   },
   kanan: {
     backgroundColor: 'rgb(247, 186, 221)',
-    flex: '70%',
+    flex: '30%',
+    padding :-10
   },
   rootGrid: {
     width: '100%',
     margin: 0,
-    padding: 0,
+    padding: -10,
     display:'flex',
     flexWrap: 'wrap',
     flexDirection: 'row',
@@ -154,7 +153,7 @@ function Cv() {
 
   return (
       <div container className={classes.rootGrid}>
-        <div  className={classes.kiri}>
+        <div item xs={8} className={classes.kiri}>
           <div className={classes.top}>
             <Avatar alt="logo" src={Lucia} className={classes.large} />
             <Typography variant="h4" component="h2" className={classes.name} >
